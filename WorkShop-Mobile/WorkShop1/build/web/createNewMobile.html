@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Create Mobile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <font color="red">
+        <h1>Mobile Information</h1>
+        </font>
+        <form action="ProcessServlet">
+            Mobile ID  : <input type="text" name="txtmobileID" value="" />(2 - 10 chars)<br/>
+            Description: <input type="text" name="txtDescription" value="" />(3 - 250 chars)<br/>
+            Price      : <input type="text" name="txtPrice" value="" />(Number>0)<br/>
+            Mobile Name: <input type="text" name="txtMobilename" value="" />(3-20chars)<br/>
+            Year Of    : <input type="text" name="txtyearOfProduction" value="" />(Number(2000-2017))<br/>
+            Production <br/>
+            Quantity   : <input type="text" name="txtQuantity" value="" />(Number>0)<br/>
+            Not sale   : <input type="checkbox" name="ckbNotsale" value="ON" />
+            <input type="submit" value="Insert New Mobile" name="btAction" />
+        </form>
+
+
+    </body>
+</html>
